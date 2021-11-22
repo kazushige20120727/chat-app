@@ -1,4 +1,4 @@
-class Message < ApplicationRecor
-  belongs_to :user
-  belongs_to :room
+class Message < ApplicationRecord
+ belongs_to :room
+ belongs_to :user
 end
